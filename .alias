@@ -1,0 +1,5 @@
+alias ip="dig @resolver1.opendns.com A myip.opendns.com +short -4"
+alias info="hostnamectl"
+alias listening="sudo lsof -i -P -n | grep LISTEN"
+
+alias haste="HASTE_SERVER=https://paste.handl.bar npx @hbauer/haste@latest"
